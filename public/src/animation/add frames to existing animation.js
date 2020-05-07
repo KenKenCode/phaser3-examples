@@ -14,6 +14,7 @@ var game = new Phaser.Game(config);
 
 function preload ()
 {
+    this.load.setBaseURL('http://labs.phaser.io'); //Add the directory for the file
     this.load.atlas('gems', 'assets/tests/columns/gems.png', 'assets/tests/columns/gems.json');
 }
 
